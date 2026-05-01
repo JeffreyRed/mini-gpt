@@ -53,6 +53,8 @@ Val   perplexity: falls for a while, then flattens or rises
 This is not a bug — it is the expected and educational outcome on a tiny
 corpus. `mini-chat` will fix it with a larger dataset.
 
+![overfitting](outputs/overfitting.png)
+
 ### Generation quality
 Because the model memorises training sentences, greedy generation will often
 reproduce exact Einstein quotes. Temperature and nucleus sampling add
@@ -177,6 +179,10 @@ Training takes **2–4 minutes on CPU**, under 30 seconds on GPU.
 | `lr_schedule.png` | Cosine LR schedule visualisation |
 | `attention.png` | All layers × all heads for `INSPECT_PROMPT` |
 | `attention_animation.gif` | Layer 1 Head 0 attention evolving during training |
+
+![lr_schedule](outputs/lr_schedule.png)
+![attention](outputs/attention.png)
+![attention_animation](outputs/attention_animation.gif)
 
 ---
 
