@@ -13,9 +13,9 @@
 
 | Step | Repository | What it builds |
 |------|-----------|----------------|
-| 1 | [mini-embedding](../mini-embedding) | Word vectors — Skip-gram Word2Vec |
-| 2 | [mini-self-attention](../mini-self-attention) | Multi-head self-attention encoder block |
-| 3 | [mini-transformer](../mini-transformer) | Positional encoding + stacked causal decoder |
+| 1 | [mini-embedding](https://github.com/JeffreyRer/mini-embedding) | Word vectors — Skip-gram Word2Vec |
+| 2 | [mini-self-attention](https://github.com/JeffreyRed/mini-self-attention) | Multi-head self-attention encoder block |
+| 3 | [mini-transformer](https://github.com/JeffreyRed/mini-transformer) | Positional encoding + stacked causal decoder |
 | **4** | **mini-gpt** ← you are here | Full LM on real text — overfitting, generation, evaluation |
 | 5 | mini-chat _(coming)_ | Prompt → response, instruction following, larger dataset |
 
