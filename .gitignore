@@ -13,9 +13,9 @@ venv/
 env/
 
 # Outputs
-outputs/*.pt
-outputs/*.png
-outputs/*.gif
+# outputs/*.pt
+# outputs/*.png
+# outputs/*.gif
 
 # Jupyter
 .ipynb_checkpoints/
