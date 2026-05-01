@@ -98,6 +98,8 @@ them is what the overfitting plot shows.
 
 `outputs/overfitting.png` shows four curves on two axes:
 
+![overfitting](outputs/overfitting.png)
+
 ```
 Left panel — perplexity:
 
@@ -203,6 +205,8 @@ where `progress = (step - warmup_steps) / (total_steps - warmup_steps)`.
 
 The LR schedule is plotted in `outputs/lr_schedule.png` so you can see
 the warmup + decay shape before training starts.
+
+![lr_schedule.png](outputs/lr_schedule.png)
 
 ---
 
