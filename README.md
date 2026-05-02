@@ -18,6 +18,8 @@
 | 3 | [mini-transformer](https://github.com/JeffreyRed/mini-transformer) | Positional encoding + stacked causal decoder |
 | **4** | **mini-gpt** ← you are here | Full LM on real text — overfitting, generation, evaluation |
 | 5 | [mini-chat](https://github.com/JeffreyRed/mini-chat) | Prompt → response, instruction following, larger dataset |
+| 6 | [mini-cross-attention](https://github.com/JeffreyRed/mini-cross-attention) | Cross-attention module, source↔target alignment |
+| 7 | [mini-translator](https://github.com/JeffreyRed/mini-translator) | English→Spanish encoder-decoder with cross-attention |
 
 ---
 
